@@ -1,9 +1,9 @@
 ARG BASE=alpine:3.9
 FROM ${BASE}
 
-LABEL maintainer="Brian J. Cardiff <bcardiff@gmail.com>"
+LABEL maintainer="Eric Lindell <github@lindell.id>"
 
-ARG RCLONE_VERSION=current
+ARG RCLONE_VERSION=v1.51.0
 ARG ARCH=amd64
 ENV SYNC_SRC=
 ENV SYNC_DEST=
